@@ -24,6 +24,7 @@ public class HighestPeak {
                     }
                 }
             }
+
             while (!q.isEmpty()) {
                 int[] p = q.poll();
                 for (int i= 0; i < 4; i++) {
